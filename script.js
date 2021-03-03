@@ -623,7 +623,8 @@ function addProjTaskToList(task, id, arrayName){
                         newTaskCheck.style.display = "none";
                         editTaskButton.style.display = "none";
                         editTaskSave.addEventListener("click", function(){
-                            arr.name = editTaskName.value;
+                            item.name = editTaskName.value;
+                            console.log(item)
                             newTaskTitle.style.display = "flex";
                             newTaskCheck.style.display = "flex";
                             editTaskButton.style.display = "flex";

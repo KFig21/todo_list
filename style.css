@@ -13,14 +13,33 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-header{
+.header-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     color: var(--headerText);
     background-color: var(--header);
-    font-weight: 500;
-    font-size: 3.3em;
     padding: 24px 0px 20px 60px;
     box-shadow: 20px 20px 20px black;
 }
+
+    header{
+        color: var(--headerText);
+        background-color: var(--header);
+        font-weight: 500;
+        font-size: 3.3em;
+    }
+
+    .sign-in{
+        margin: auto 50px;
+        background-color: var(--headerText);
+        color: var(--header);
+        font-weight: 500;
+        font-size: 1.3em;
+        padding: 5px 10px;
+        border-radius: 2px;
+        cursor: pointer;
+    }
 
 main{
     display: flex;
